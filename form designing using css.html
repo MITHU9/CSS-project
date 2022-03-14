@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form designing</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+            padding: 10px 20px;
+            font-size: 1rem;
+            margin: 20px 0;
+
+            border: 3px solid slateblue;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+       #search:focus{
+             background-color: tomato;
+             width: 100%;
+       }
+       #search{
+           width: 150px;
+           transition: width.3s ease-in-out;
+       }
+       input[type="button"],input[type="reset"]{
+           width: 100px;
+           background-color: greenyellow;
+           padding: 6px;
+           cursor:pointer;
+       }
+       textarea{
+           resize: none;
+           padding: 5px;
+           border: 3px green solid;
+           border-radius: 10px;
+       }
+       select{
+           padding: 20px;
+           width: 50%;
+           border: none;
+           background-color: greenyellow;
+           border-radius: 10px;
+       }
+    </style>
+</head>
+<body>
+    <form action="">
+        <select name="sub-name" id="subj">
+              <option value="c">C program</option>
+              <option value="c++">C++ program</option>
+              <option value="java">java program</option>
+        </select><br/>
+        
+        <input type="text" name="search" id="search" placeholder="search"><br/>
+
+        <lebel for="fname">First Name:</lebel>
+        <input type="text" name="fname" id="fname">
+
+        <lebel for="lname">Last Name:</lebel>
+        <input type="text" name="lname" id="lname">
+
+        <textarea name="" id="" cols="30" rows="10"> write your comments here</textarea><br/><br/>
+
+        <input type="button" value="Submit">
+
+        <input type="reset" value="Reset">
+    </form>
+    
+</body>
+</html>

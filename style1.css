@@ -1,0 +1,13 @@
+body{
+  background-color: grey;
+  background-image:url("FB_20150514_18_21_48_Saved_Picture.jpg" ) ;
+  background-repeat: no-repeat;
+  background-position:left top ;
+  background-attachment: fixed;
+}
+h1{
+
+   text-align: center;
+   text-decoration: underline;
+   text-shadow:5px 2px blue;
+}

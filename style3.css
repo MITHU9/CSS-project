@@ -1,0 +1,11 @@
+.c1{
+width: 600px;
+margin auto;
+border: 3px solid green;
+
+}
+.c2{
+    max-width: 600;
+    margin auto;
+    border: 3px solid green;
+}

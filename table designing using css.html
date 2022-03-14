@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table designing using css</title>
+    <style>
+        table{
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            border:2px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+       th{
+           background-color: chartreuse;
+           height: 30px;
+       }
+    
+       tr:nth-child(even){
+           background-color:gray;
+       }
+       tr:nth-child(odd){
+           background-color: gold;
+       }
+       tr:hover{
+           background-color: tomato;
+        } 
+      
+    </style>
+</head>
+<body>
+    <table>
+      <caption>Student Details</caption>
+          <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>GPA</th>
+              <th>phone</th>
+              <th>Bio</th>
+          </tr>
+          <tr>
+              <td>101</td>
+              <td>Masum</td>
+              <td>5.00</td>
+              <td>01754872982</td>
+              <td>I am a student.My country name is bangladesh.I love my country very much.
+                My university name is pabna universiy of science and technology(PUST).
+                My department name is Computer Science And Engineering(CSE).
+                 I want to be a web developer. I love programming.In sha Allah one day I will be a great programer.</td>
+         </tr>
+         <tr>
+            <td>102</td>
+            <td>Mithu</td>
+            <td>4.90</td>
+            <td>01703872982</td>
+            <td>I am a student.My country name is bangladesh.I love my country very much.
+              My university name is pabna universiy of science and technology(PUST).
+              My department name is Computer Science And Engineering(CSE).
+               I want to be a web developer. I love programming.In sha Allah one day I will be a great programer.</td>
+       </tr>
+       <tr>
+        <td>103</td>
+        <td>Marsel</td>
+        <td>5.00</td>
+        <td>01754674945</td>
+        <td>I am a student.My country name is bangladesh.I love my country very much.
+         My university name is pabna universiy of science and technology(PUST).
+          My department name is Computer Science And Engineering(CSE).
+           I want to be a web developer. I love programming.In sha Allah one day I will be a great programer.</td>
+   </tr>
+   <tr>
+    <td>104</td>
+    <td>Rokibul</td>
+    <td>5.00</td>
+    <td>01754874563</td>
+    <td>I am a student.My country name is bangladesh.I love my country very much.
+      My university name is pabna universiy of science and technology(PUST).
+      My department name is Computer Science And Engineering(CSE).
+       I want to be a web developer. I love programming.In sha Allah one day I will be a great programer.</td>
+</tr>
+<tr>
+    <td>105</td>
+    <td>Rayhan</td>
+    <td>5.00</td>
+    <td>01754872642</td>
+    <td>I am a student.My country name is bangladesh.I love my country very much.
+     My university name is pabna universiy of science and technology(PUST).
+      My department name is Computer Science And Engineering(CSE).
+       I want to be a web developer. I love programming.In sha Allah one day I will be a great programer.</td>
+</tr>
+
+    </table>
+    
+</body>
+</html>

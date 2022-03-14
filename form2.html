@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+	    <title>Form validation</title>
+	</head>
+	<body>
+		  <h2 align="center">Topic:Form validation</h2><hr/>
+	   <form>  
+	     <datalist id="name">
+		     <option>Mithu</option>   
+		      <option>titu</option>   
+		       <option>konok</option>   
+		   	    <option>marsel</option>   
+		
+		</datalist>
+		   <p><input type="text" list="name" placeholder="username" required pattern="[a-zA-Z0-9]+"></p>
+		    <p><input type="email" placeholder="enter your email" required>
+		     <p><input type="submit"value="sign up"></p>
+	   </form>
+    </body>
+</html>

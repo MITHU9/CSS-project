@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow and custom tooltip</title>
+    <style>
+        div{
+            height: 100px;
+            width: 250px;
+            background-color: chartreuse;
+            border: 2px solid black;
+            overflow:auto;
+        }
+        .tooltip{
+            position: relative;
+        }
+      .tooltip1{
+        visibility: hidden;
+        width: 150px;
+        background-color: rgb(0, 17, 255);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 1;
+     }
+     .tooltip:hover .tooltip1{
+          visibility: visible;
+     }
+    </style>
+</head>
+<body>
+    <a href="#" class="tooltip">Facebook
+        <span  class="tooltip1">Facebook is a social media</span>
+    </a>
+    <br/><br/>
+
+   <div>
+    I am a student.My country name is bangladesh.I love my country very much.
+    I live in pabna district.My university name is pabna universiy of science and technology(PUST).
+    My department name is Computer Science And Engineering(CSE).
+    I have a family.There are 6 members in my family.I live in society.I want to be a web developer.
+    I love programming.In sha Allah one day I will be a great programer.
+   </div>
+</body>
+</html>
